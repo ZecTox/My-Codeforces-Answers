@@ -1,9 +1,6 @@
 import sys
 input = sys.stdin.readline
 
-def swap(i,j,list):
-    list[i], list[j] = list[j], list[i]
-
 num = int(input())
 list = list(map(int, input().split()))
 
