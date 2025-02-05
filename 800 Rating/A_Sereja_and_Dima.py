@@ -10,7 +10,7 @@ sereja_score = 0
 dima_score = 0
 
 for i in range(n):
-    if i%2==0:
+    if i%2==0: # sereja is the first one to play the game so he will always get the first card
         if arr[left]>arr[right]:
             sereja_score+=arr[left]
             left+=1
