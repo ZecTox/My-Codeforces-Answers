@@ -1,0 +1,25 @@
+<style>
+    .custom-video-1 {
+        max-width: 1200px;
+        /* width: 98%; Set video width */
+        /* height: 75vh; Ensure the video height adjusts proportionally */
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px; /* Rounded corners */
+        border: 5px solid #FFB4C2; /* Optional: Subtle border with color */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow around the video */
+        transition: all 0.3s ease; /* Smooth transition for effects */
+    }
+
+    @media (max-width: 768px) {
+        .custom-video-1 {
+            width: 98%; /* Adjust video width on smaller screens */
+            border: 3px solid #d7ad2b; /* Optional: Adjust border width */
+        }
+    }
+</style>
+
+<video class="custom-video-1" muted autoplay playsinline loop>
+    <source src="https://cdn.shopify.com/videos/c/o/v/8f32af47d6f24ea982472568139da61d.mp4" type="video/mp4">
+    <source src="https://cdn.shopify.com/videos/c/o/v/8f32af47d6f24ea982472568139da61d.mp4" type="video/mp4">
+</video>
